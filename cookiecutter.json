@@ -1,0 +1,16 @@
+{
+    "full_name": "Miguel Ángel Curiel",
+    "email": "macuriel@sipay.es",
+    "github_username": "macuriel",
+    "project_name": "Python Boilerplate",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "project_short_description": "Python Boilerplate contains all the boilerplate you need to create a Python package.",
+    "pypi_username": "{{ cookiecutter.github_username }}",
+    "version": "0.1.0",
+    "use_pytest": "y",
+    "command_line_interface": "y",
+    "create_author_file": "y",
+    "open_source_license": ["MIT", "BSD", "ISCL", "Apache Software License 2.0", "Not open source"],
+    "docker_image": "{{ cookiecutter.project_slug }}-image",
+    "docker_container": "{{ cookiecutter.docker_image }}"
+}
